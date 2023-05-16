@@ -9,6 +9,7 @@ import 'package:trial1/screens/PrivacyPolicyPage.dart';
 import 'package:trial1/screens/SendFeedbackPage.dart';
 import 'package:trial1/screens/setting.dart';
 import 'package:trial1/screens/login.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'MainDashboard.dart';
 import 'package:trial1/Services.dart';
 
@@ -94,20 +95,11 @@ class _HomePageState extends State<HomePage> {
               currentPage == DrawerSections.dashboard ? true : false),
           menuItem(2, "User Login", Icons.vpn_key,
               currentPage == DrawerSections.login ? true : false),
-          menuItem(3, "Events", Icons.event,
-              currentPage == DrawerSections.events ? true : false),
           menuItem(4, "Services", Icons.notes,
               currentPage == DrawerSections.Services ? true : false),
           Divider(),
-          menuItem(5, "Settings", Icons.settings_outlined,
-              currentPage == DrawerSections.settings ? true : false),
-          menuItem(6, "Notifications", Icons.notifications_outlined,
-              currentPage == DrawerSections.notifications ? true : false),
-          Divider(),
-          menuItem(7, "Privacy policy", Icons.privacy_tip_outlined,
+          menuItem(5, "Privacy Policy", Icons.privacy_tip,
               currentPage == DrawerSections.privacy_policy ? true : false),
-          menuItem(8, "Send feedback", Icons.feedback_outlined,
-              currentPage == DrawerSections.send_feedback ? true : false),
         ],
       ),
     );
@@ -124,18 +116,10 @@ class _HomePageState extends State<HomePage> {
               currentPage = DrawerSections.dashboard;
             } else if (id == 2) {
               currentPage = DrawerSections.login;
-            } else if (id == 3) {
-              currentPage = DrawerSections.events;
             } else if (id == 4) {
               currentPage = DrawerSections.Services;
             } else if (id == 5) {
-              currentPage = DrawerSections.settings;
-            } else if (id == 6) {
-              currentPage = DrawerSections.notifications;
-            } else if (id == 7) {
               currentPage = DrawerSections.privacy_policy;
-            } else if (id == 8) {
-              currentPage = DrawerSections.send_feedback;
             }
           });
         },
