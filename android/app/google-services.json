@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:389423974340:android:6979e1c5c2cad2e0c9c691",
         "android_client_info": {
-          "package_name": "com.example.trial1"
+          "package_name": "com.gcek.it"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "389423974340-oca6pse5m0ateofssdh61m3ev2k9dj0f.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.trial1"
+                "bundle_id": "com.gcek.it"
               }
             }
           ]
