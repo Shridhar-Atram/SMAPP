@@ -1,8 +1,6 @@
-import 'package:trial1/doctor_details_data.dart';
-import 'package:flutter/cupertino.dart';
-
 import 'models/doctor_detail_model.dart';
 
+// ignore: non_constant_identifier_names
 final DoctorDetailsData = [
   //hospital 1
 

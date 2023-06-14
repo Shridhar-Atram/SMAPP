@@ -1,5 +1,4 @@
-//import 'package:first_app/models/food_detail_model.dart';
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: non_constant_identifier_names
 
 import 'models/food_detail_model.dart';
 
