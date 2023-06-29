@@ -31,6 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_multi_carousel: ^1.0.0
   firebase_core_platform_interface: 4.5.1
+  syncfusion_flutter_pdfviewer: ^21.2.3
   firebase_messaging: ^13.0.4 
   cloud_firestore: ^3.4.8
   firebase_auth: ^3.9.0
@@ -70,6 +71,22 @@ flutter:
     - assets/images/logo.png
     - assets/images/college.jpg
     - assets/images/
+    - assets/images/slider/
+    - assets/pdfs/
+    - assets/images/clubs/
+    - assets/images/clubs/alphageeks/
+    - assets/images/clubs/alphageeks/events/
+    - assets/images/clubs/logo/
+    - assets/images/clubs/gdsc/
+    - assets/images/clubs/alphageeks/
+    - assets/images/clubs/alphageeks/events/
+    - assets/images/clubs/gdsc/
+    - assets/images/clubs/defence/
+    - assets/images/clubs/yoga/
+    - assets/images/clubs/pixel/
+    - assets/images/clubs/tiffan/
+    - assets/images/clubs/arts/
+    - assets/images/clubs/baja/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see
